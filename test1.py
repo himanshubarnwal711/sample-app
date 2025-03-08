@@ -11,3 +11,5 @@ def full_pyramid(n):
         print()
    
 full_pyramid(5)
+
+
