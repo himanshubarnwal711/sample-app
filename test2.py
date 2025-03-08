@@ -1,3 +1,3 @@
-j=1
-for j in range(10):
-  print(j)
+j=10
+for j in range(100):
+  print(j,end=' ')
