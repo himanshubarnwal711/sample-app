@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:17.4-bullseye
+    restart: always
+    container_name: pgDB
+    environment: 
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - /usr/postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
